@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: '_objects.Array.data[1]'
       value: 
       objectReference: {fileID: 2262886114245146600}
+    - target: {fileID: 1507271243, guid: cf5e00f95bbc102419b456b1674f47f7, type: 3}
+      propertyPath: textureOpacity_
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 67711351417476238, guid: cf5e00f95bbc102419b456b1674f47f7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2712,69 +2716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8862bea98fed5448c81a6a656d69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &293618067
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 293618070}
-  - component: {fileID: 293618069}
-  - component: {fileID: 293618068}
-  m_Layer: 0
-  m_Name: PointableCanvasModule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &293618068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293618067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2518c50cb3fc6a6458d4b743c2f69c7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  _useInitialPressPositionForDrag: 1
-  _exclusiveMode: 0
---- !u!114 &293618069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293618067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &293618070
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293618067}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &329525811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,6 +5030,10 @@ PrefabInstance:
     - target: {fileID: 4122497670834771107, guid: 5239d13158998b148b3e5a0c1de7c054, type: 3}
       propertyPath: m_Layer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122497670834771107, guid: 5239d13158998b148b3e5a0c1de7c054, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4409606731807013286, guid: 5239d13158998b148b3e5a0c1de7c054, type: 3}
       propertyPath: m_text
@@ -10901,6 +10846,63 @@ Transform:
   - {fileID: 1839687790944750767}
   m_Father: {fileID: 1109072631443932956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1803798813665422314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4547386681771393112, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_Name
+      value: PointableCanvasModule
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127801596814618981, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05915499ed1cab342bcdfdbbd060295f, type: 3}
 --- !u!33 &1815562249207752642
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13083,6 +13085,10 @@ PrefabInstance:
       propertyPath: quest3MinDynamicResolutionScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: expandMixedRealityCapturePropertySheet
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -14246,7 +14252,7 @@ SceneRoots:
   - {fileID: 7079690333416376770}
   - {fileID: 1108419882731237328}
   - {fileID: 995191357}
-  - {fileID: 293618070}
+  - {fileID: 1803798813665422314}
   - {fileID: 1532297577}
   - {fileID: 6314918122793521991}
   - {fileID: 870138526}
