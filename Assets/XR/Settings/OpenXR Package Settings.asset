@@ -182,6 +182,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-6030536529425983266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-5913275795888548445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,6 +405,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-2334548194110509769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &-1941171931589069090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,6 +445,7 @@ MonoBehaviour:
   - {fileID: 1843849042122830588}
   - {fileID: 8933177048608166815}
   - {fileID: -678736771152801876}
+  - {fileID: 8367760541938536047}
   - {fileID: 7931646229742704178}
   - {fileID: -5913275795888548445}
   - {fileID: -2716884179646277767}
@@ -420,13 +461,14 @@ MonoBehaviour:
   - {fileID: -6760140413468185162}
   - {fileID: -4341331846221842657}
   - {fileID: -2471461933185675510}
+  - {fileID: 3746527843647816066}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
   m_spacewarpMotionVectorTextureFormat: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-1318088678328382908
@@ -768,6 +810,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &3746527843647816066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &4148216664195102947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +1044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -993,13 +1055,13 @@ MonoBehaviour:
   targetDevices:
   - visibleName: Quest
     manifestName: quest
-    enabled: 1
+    enabled: 0
   - visibleName: Quest 2
     manifestName: quest2
-    enabled: 1
+    enabled: 0
   - visibleName: Quest Pro
     manifestName: cambria
-    enabled: 1
+    enabled: 0
   - visibleName: Quest 3
     manifestName: eureka
     enabled: 1
@@ -1037,6 +1099,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &8367760541938536047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &8687724037412202799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,6 +1141,7 @@ MonoBehaviour:
   - {fileID: 6957572536635780277}
   - {fileID: 9067520972292094783}
   - {fileID: -8126009027003623930}
+  - {fileID: -6030536529425983266}
   - {fileID: 4596564672161639544}
   - {fileID: 4148216664195102947}
   - {fileID: 6416606746603621149}
@@ -1073,6 +1156,7 @@ MonoBehaviour:
   - {fileID: 8277493072272194696}
   - {fileID: 7673885374283749586}
   - {fileID: -6779294040674454861}
+  - {fileID: -2334548194110509769}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
