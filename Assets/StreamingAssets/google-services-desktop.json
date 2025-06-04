@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116383506734",
+    "project_id": "gen-lang-client-0125077051",
+    "storage_bucket": "gen-lang-client-0125077051.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116383506734:android:482f5dd7cb35c828ff9abf",
+        "android_client_info": {
+          "package_name": "com.me7aben.EagleMine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwqIppmLGh_jsQJrC8mZHNuZUDjYEcVM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
