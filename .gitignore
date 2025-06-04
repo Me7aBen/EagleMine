@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -60,3 +61,16 @@ crashlytics-build.properties
 
 .vscode
 
+##################################
+# Firebase specific additions
+##################################
+
+# Ignore large native binaries from Firebase
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.bundle
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.so
+
+# Optional: ignore entire Firebase SDK (if reimported manually each time)
+# Assets/Firebase/
+Assets/google-services.json
+
+Assets/google-services.json.meta
