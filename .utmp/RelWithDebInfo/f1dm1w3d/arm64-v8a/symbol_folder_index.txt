@@ -1,0 +1,1 @@
+C:\Repositorios\EagleMine\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\f1dm1w3d\obj\arm64-v8a

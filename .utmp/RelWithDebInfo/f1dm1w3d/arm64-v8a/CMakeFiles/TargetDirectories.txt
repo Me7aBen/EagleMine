@@ -1,0 +1,5 @@
+C:/Repositorios/EagleMine/.utmp/RelWithDebInfo/f1dm1w3d/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Repositorios/EagleMine/.utmp/RelWithDebInfo/f1dm1w3d/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Repositorios/EagleMine/.utmp/RelWithDebInfo/f1dm1w3d/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Repositorios/EagleMine/.utmp/RelWithDebInfo/f1dm1w3d/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Repositorios/EagleMine/.utmp/RelWithDebInfo/f1dm1w3d/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
